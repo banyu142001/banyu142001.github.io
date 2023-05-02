@@ -69,27 +69,81 @@
       <p>I am a Student | ITB - Stikom Ambon</p>
 
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col">
-            <div
-              class="card mb-3 c-card-1"
-              style="margin: auto; background-color: #f9b900"
-            >
-              <div class="card-body shadow-sm align-items-center">
-                <!-- <h5 class="card-title">Card title</h5> -->
-                <div class="container">
-                  <div class="row justify-content-center">
-                    <div class="col-sm-5 c-card c-col">
-                      <i class="bi bi-bank2 c-icon"></i>
-                      <p class="text-uppercase c-p">ITB-Stikom Ambon</p>
+        <div class="row">
+          <div class="card m-auto mb-3 c-card-1 p-3">
+            <div class="card-body">
+              <!-- Carousel slide -->
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active c-items">
+                    <img src="img/1.jpg" class="d-block w-100 c-img" alt="a" />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="mt-5">
+                        Institut Teknologi dan Bisnsi Stikom Ambon
+                      </h5>
                     </div>
-                    <div class="col-sm-5 c-card c-col">
-                      <i class="bi bi-bookmark-plus-fill c-icon"></i>
-                      <p class="text-center c-p">Sistem Informasi</p>
+                  </div>
+                  <div class="carousel-item c-items">
+                    <img src="img/3.jpg" class="d-block w-100 c-img" alt="2" />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="mt-5">SISTEM INFORMASI</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item c-items">
+                    <img src="img/4.jpg" class="d-block w-100 c-img" alt="2" />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="mt-5">SI6D Class</h5>
                     </div>
                   </div>
                 </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
+              <!-- Carousel slide -->
             </div>
           </div>
         </div>
